@@ -2,7 +2,7 @@ export type Product = {
  id:number; slug:string; name:string; brand:string; category:string; referencePrice:number; price:number; discount:number; saving:number; image:string; description:string; specs:Record<string,string>;
 };
 
-const img=(q:string)=>`https://images.unsplash.com/${q}&auto=format&fit=crop&w=900&q=80`;
+const img=(q:string)=>`https://images.unsplash.com/${q}?auto=format&fit=crop&w=900&q=80`;
 const raw=[
 ["Smart TV Samsung 55 inch 4K UHD","Samsung","TV - Âm thanh",15990000,"photo-1593359677879-a4bb92f829d1"],
 ["Tủ lạnh LG Inverter 335L","LG","Tủ lạnh - Tủ đông",10990000,"photo-1571175443880-49e1d25b2bc5"],
