@@ -1,0 +1,3 @@
+export default function Hero(){
+ return <section className="hero"><div className="container hero-grid"><aside className="side-menu"><b>Danh mục nổi bật</b>{["TV - Âm thanh","Tủ lạnh - Tủ đông","Máy giặt - Máy sấy","Máy lạnh - Điều hòa","Bếp - Gia dụng","Máy lọc nước","Đồ nội thất","Đèn trang trí"].map(x=><a key={x} href={`/san-pham/?category=${encodeURIComponent(x)}`}>{x}<span>›</span></a>)}</aside><div className="hero-banner"><div><small>CỬA HÀNG ĐIỆN MÁY - NỘI THẤT DUY HẢO</small><h1>Sắm đồ điện máy<br/>Nội thất tiện nghi</h1><strong>Giá tốt hơn mỗi ngày</strong><p>Chương trình giá tham chiếu − 10%*</p><a href="/san-pham/" className="btn yellow">Mua sắm ngay →</a></div><div className="hero-icons">📺　🧊　🧺　❄️　🛋️</div></div></div></section>
+}
